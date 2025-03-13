@@ -7,7 +7,7 @@ import { fadeIn } from "../Utilis/animationVariants";
 function About() {
   return (
     <div id="about" className="h-auto bg-[#f7f8fc] pb-16 pt-28">
-      <motion.div
+      <div
               variants={fadeIn("up", 0.2)}
               initial="hidden"
               whileInView={"show"} 
@@ -53,7 +53,7 @@ function About() {
 
 
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }
