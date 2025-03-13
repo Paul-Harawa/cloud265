@@ -50,7 +50,7 @@ function Hero() {
           </button>
         </motion.div>
 
-        <motion.div
+        <div
         variants={fadeIn("left", 0.2)}
         initial="hidden"
         whileInView={"show"} 
@@ -64,7 +64,7 @@ function Hero() {
             src={heroImg}
             alt="hero image"
           />
-        </motion.div>
+        </div>
       </div>
     </section>
   );

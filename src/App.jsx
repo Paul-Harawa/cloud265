@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Services from "./components/services";
+import Services from "./components/Services";
 import Hero from "./components/Hero";
 import Contact from "./components/Contact";
 import Pricing from "./components/Pricing";

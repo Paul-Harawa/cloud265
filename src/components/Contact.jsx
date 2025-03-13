@@ -11,7 +11,7 @@ function Contact() {
         <div className='md:w-4/5 mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-12 gap-8'>
 
 
-          <motion.div
+          <div
                   variants={fadeIn("up", 0.2)}
                   initial="hidden"
                   whileInView={"show"} 
@@ -59,7 +59,7 @@ function Contact() {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
 
           <div className='space-y-8 p-8 bg-white shadow-xl rounded-md'>
 

@@ -67,7 +67,7 @@ function Pricing() {
           </p>
         </div>
 
-        <motion.div
+        <div
                 variants={fadeIn("up", 0.2)}
                 initial="hidden"
                 whileInView={"show"} 
@@ -109,7 +109,7 @@ function Pricing() {
               </button>
             </div>
           ))}
-        </motion.div>
+        </div>
 
         <div className="text-center mb-12">
           <h4 className="text-lg font-bold font-secondary mb-8 pt-8 text-red-700">

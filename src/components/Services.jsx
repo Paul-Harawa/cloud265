@@ -49,7 +49,7 @@ function Services() {
 
             <TabPanel>
 
-              <motion.div
+              <div
                       variants={fadeIn("up", 0.2)}
                       initial="hidden"
                       whileInView={"show"} 
@@ -112,11 +112,11 @@ function Services() {
                 />
               </div>
 
-              </motion.div>
+              </div>
             </TabPanel>
             <TabPanel>
 
-              <motion.div
+              <div
                       variants={fadeIn("up", 0.2)}
                       initial="hidden"
                       whileInView={"show"} 
@@ -178,11 +178,11 @@ function Services() {
                 />
               </div>
 
-              </motion.div>
+              </div>
             </TabPanel>
             <TabPanel>
 
-              <motion.div
+              <div
                       variants={fadeIn("up", 0.2)}
                       initial="hidden"
                       whileInView={"show"} 
@@ -243,7 +243,7 @@ function Services() {
                 />
               </div>
 
-              </motion.div>
+              </div>
             </TabPanel>
           </Tabs>
         </div>
