@@ -100,13 +100,9 @@ const Footer = () => {
 
 
       <div className="flex items-center justify-between mt-8 border-t border-gray-300 pt-4">
-        <div className="font-bold flex items-center ">
-            Cloud<span className="text-green-700">265</span>
-            <FaTrademark className="text-sm pb-1.5" />
-        </div>
 
-        <div>
-            Developed By <span className="font-bold">UnoBit Systems </span>
+        <div className="text-center mx-auto text-xs">
+            Developed By <span className="font-bold ">UnoBit Systems </span>
         </div>
       </div>
     </div>
